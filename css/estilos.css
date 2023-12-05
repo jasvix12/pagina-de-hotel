@@ -1,0 +1,92 @@
+
+:root {
+    --font-family: "Roboto", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    --primary-color: #4756df;
+    --secondary-color: #ff7235;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color:red;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1.9rem;
+        }
+        nav ul li {
+        font-weight:bold;
+        }
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--font-family);
+    color: rgb(12, 13, 14);
+    background-image: url(https://iphoneros.com/wp-content/uploads/2013/06/71.jpg);
+}
+
+    nav h1 {
+    color: var(--color-primario);
+    }
+    nav a {
+    color: var(--color-primario);
+    transition: var(--transicion);
+    }
+    nav a:hover {
+    color: var(--valor-secundario);
+    border-bottom: 2px solid var(--valor-secundario);
+    }
+
+
+          .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(9, 233, 46, 0.1);
+          }
+          
+          h1 {
+            text-align: center;
+            color: aqua;
+          }
+          
+          input[type="checkbox"],
+          input[type="radio"] {
+            margin-bottom: 10px;
+          }
+
+          

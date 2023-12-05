@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="https://cf.bstatic.com/xdata/images/hotel/max200/252017426.jpg?k=feac87ec5c323ee99304af21627164b415c86a5be51cda0faa56a9566e4b5200&o=&hp=1" alt="">
+    <title>sistemas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bienvenido al Sistema de Gestión de Hotel</h1>
+    
+    <form action="login.php" method="POST">
+      <label for="usuario">Usuario:</label>
+      <input type="text" id="usuario" name="usuario" required>
+      <br>
+      
+      <label for="contraseña">Contraseña:</label>
+      <input type="password" id="contraseña" name="contraseña" required>
+      <br>
+      
+      <label for="rol">Seleccionar Rol:</label>
+      <select id="rol" name="rol" required>
+        <option value="recepcionista">Empleado de Mostrador</option>
+        <option value="gerente">Gerente</option>
+        <option value="administrador">Administrador</option>
+      </select>
+      <br>
+
+      <input type="submit" value="Ingresar">
+    </form>
+  </div>
+</body>
+</html>
+

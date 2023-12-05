@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+</body>
+</html><html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas de Habitaciones</title>
+    <img src="https://cf.bstatic.com/xdata/images/hotel/max200/252017426.jpg?k=feac87ec5c323ee99304af21627164b415c86a5be51cda0faa56a9566e4b5200&o=&hp=1" alt="">
+    <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+    <div class="container">
+        <h1>Reserva de Habitaciones</h1>
+        <p>Clientes que solicitan una habitación en el mostrador del hotel:</p>
+        <input type="checkbox" id="solicitudMostrador" name="solicitudMostrador">
+        <label for="solicitudMostrador">Solicitar en mostrador</label>
+        <br>
+    
+        <p>Clientes que solicitan habitaciones para no fumadores:</p>
+        <input type="checkbox" id="solicitudNoFumadores" name="solicitudNoFumadores">
+        <label for="solicitudNoFumadores">Habitación para no fumadores</label>
+        <br>
+    
+        <p>Tipo de pensión:</p>
+        <input type="radio" id="dormir" name="pension" value="dormir">
+        <label for="dormir">Dormir únicamente</label>
+        <br>
+        <input type="radio" id="mediaPension" name="pension" value="mediaPension">
+        <label for="mediaPension">Media pensión</label>
+        <br>
+        <input type="radio" id="pensionCompleta" name="pension" value="pensionCompleta">
+        <label for="pensionCompleta">Pensión completa</label>
+        <br>
+
+        <label for="tarjeta-credito">Número de Tarjeta de Crédito:</label>
+        <input type="text" id="tarjeta" name="tarjeta">
+    
+        <input type="submit" value="Reservar">
+    </div>
+    </body>

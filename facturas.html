@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Factura</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="container">
+    <h1>Factura</h1>
+
+    <label for="detallesOcupacion">Detalles de ocupación:</label>
+    <textarea id="detallesOcupacion" name="detallesOcupacion" rows="4" required></textarea>
+    <br>
+
+    <label for="totalServicios">Total de servicios:</label>
+    <input type="number" id="totalServicios" name="totalServicios" required>
+    <br>
+
+    <input type="button" value="Generar Factura" onclick="generarFactura()">
+    <br>
+    
+    <p id="resultadoFactura"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
